@@ -1,0 +1,351 @@
+body {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    font-family: Comfortaa;
+    cursor: default;
+    box-sizing: border-box;
+}
+
+.container1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.cont1, .cont2 {
+    width: 100%;
+    margin: 0;
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Выравнивание по центру по горизонтали */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+/*CONT1*/
+.title1-cont1 {
+    font-weight: Bold;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+.title2-cont1 {
+    padding-top: 1rem;
+    font-weight: normal;
+    max-width: 100%;
+    font-size: 1.3rem;
+}
+.pz-title2 {
+    font-weight: bold;
+}
+.title3-cont1 {
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+/*CONT2*/
+
+/*BUTTONS*/
+.buttons-cont1 {
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    gap: 0.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.buttons-cont1 img {
+   transition: none;
+}
+
+/*BUTTONS END*/
+
+.text-cont2 {
+    font-size: 0.9rem;
+}
+.Ps {
+    font-weight: bold;
+}
+
+
+/*SECOND CONTAINER*/
+/*SECOND CONTAINER*/
+.container2 {
+    text-align: center;
+    padding-top: 3rem;
+    font-family: Comfortaa;
+}
+
+.title2 {
+    font-family: Comfortaa;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+.top-side {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap; /* Размещение блоков в ряд на мобильных устройствах */
+    justify-content: center;
+    align-items: center;
+}
+
+.---,
+.---2 {
+    display: flex;
+    flex-direction: row; /* Изменено на горизонтальное расположение для мобильных устройств */
+    justify-content: center;
+    align-items: center;
+}
+
+.-txt-1,
+.-txt-2,
+.-txt-3,
+.-txt-4,
+.-txt-5,
+.-txt-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0.3rem;
+    width: 8rem; /* Уменьшенная ширина блоков в два раза */
+    height: 1.5rem; /* Уменьшенная высота блоков в два раза */
+    margin: 0.5rem; /* Уменьшенный отступ */
+}
+
+.-txt-1 a,
+.-txt-2 a,
+.-txt-3 a,
+.-txt-4 a,
+.-txt-5 a,
+.-txt-6 a {
+    font-size: 0.8rem; /* Уменьшенный размер шрифта для мобильных устройств */
+    color: black; /* Установлен черный цвет текста */
+    text-decoration: underline; /* Добавлено подчеркивание */
+}
+
+.ipad-descript {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.bottom-side {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-note-id {
+    width: 80%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+}
+
+.note-photo,
+.idcards-photo {
+    max-width: 55%; /* Увеличенная ширина блокнота */
+    height: auto;
+    margin: 0.5rem;
+    margin-left: -10%;
+}
+
+.note-id-descript {
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+
+/*THIRD CONTAINER*/
+.container3 {
+    width: 100%;
+    font-family: Comfortaa;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.title3 {
+    font-weight: Bold;
+    text-decoration: underline;
+    font-size: 2rem; /* Уменьшенный размер шрифта для мобильных устройств */
+    padding-top: 1rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.skill-boxes {
+    display: flex;
+    flex-direction: column; /* Изменено на вертикальное расположение для мобильных устройств */
+    justify-content: center;
+    align-items: center;
+}
+
+.PS-box,
+.AI-box,
+.AE-box,
+.Figma-box {
+    margin: 2% 0; /* Уменьшенный отступ для мобильных устройств */
+}
+
+.PS-txt1,
+.AI-txt1,
+.AE-txt1,
+.Figma-txt1,
+.PS-txt2,
+.AI-txt2,
+.AE-txt2,
+.Figma-txt2 {
+    font-weight: Bold;
+    font-size: 1.5rem; /* Уменьшенный размер шрифта для мобильных устройств */
+    padding-bottom: 1rem;
+}
+
+.PS-skills,
+.AI-skills,
+.AE-skills,
+.Figma-skills {
+    font-weight: 700;
+}
+
+.GD,
+.WD,
+.CC,
+.TD,
+.PR,
+.VD,
+.IA,
+.LC,
+.TyD,
+.DA,
+.MG,
+.VE,
+.VEd,
+.AM,
+.DC,
+.UI-UX,
+.Pr,
+.IUI,
+.CoD,
+.Mc {
+    display: inline-flex;
+    padding: 0.2em 0.5em;
+    border: 0.1rem solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0.4rem;
+    width: 160px;
+    height: 30px;
+    font-size: 0.9rem; /* Уменьшенный размер шрифта для мобильных устройств */
+}
+
+/* Отключение анимаций для мобильных устройств */
+@media (max-width: 600px) {
+    .skill-boxes img {
+        transition: none;
+    }
+}
+
+
+/*FOURTH CONTAINER*/
+.container4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: Comfortaa;
+    align-items: center;
+    text-align: center;
+}
+
+.title4 {
+    margin-top: 3rem; /* Уменьшенный отступ сверху для мобильных устройств */
+    font-weight: bold;
+    font-size: 2rem; /* Уменьшенный размер шрифта для мобильных устройств */
+    text-decoration: underline;
+    margin: auto;
+    padding-bottom: 5rem; /* Уменьшенный отступ снизу для мобильных устройств */
+}
+
+.conts-4 {
+    display: flex;
+    flex-direction: column; /* Изменено на вертикальное расположение для мобильных устройств */
+    justify-content: center;
+    align-items: center;
+}
+
+.cont1-4,
+.cont2-4 {
+    flex: 1 0 100%; /* Установлено на 100% ширины для мобильных устройств */
+}
+
+/*BUTTONS2*/
+.buttons-cont2 {
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    gap: 0.3rem;
+    margin-top: 1rem;
+    justify-content: center; /* Выравнивание по центру по горизонтали */
+}
+
+.buttons-cont2 img {
+    transition: none; /* Отключены анимации для мобильных устройств */
+}
+
+/*BUTTONS2 END*/
+
+.title1-4 {
+    font-weight: bold;
+    font-size: 2rem; /* Уменьшенный размер шрифта для мобильных устройств */
+    text-decoration: underline;
+    padding-bottom: 1rem; /* Уменьшенный отступ снизу для мобильных устройств */
+}
+
+.descript1-4,
+.descript2-4 {
+    font-weight: normal;
+    font-size: 1rem; /* Уменьшенный размер шрифта для мобильных устройств */
+    width: 100%; /* Изменено на 100% ширины для мобильных устройств */
+}
+
+.img1-4 {
+    margin-top: 0; /* Убран отрицательный отступ для мобильных устройств */
+}
+
+/*BOTTOM BAR*/
+.bottom-bar {
+    margin-top: 3rem; /* Уменьшенный отступ сверху для мобильных устройств */
+    width: 100%;
+    height: 2rem;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title5 {
+    font-weight: bold;
+    font-size: 1rem; /* Уменьшенный размер шрифта для мобильных устройств */
+    font-family: Comfortaa;
+}
