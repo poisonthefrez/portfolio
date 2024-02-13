@@ -64,7 +64,9 @@ body {
 }
 
 /*BUTTONS END*/
-
+.pz-photo {
+    max-width: 80%;
+}
 .text-cont2 {
     padding-top: 0.2rem;
     font-size: 0.9rem;
@@ -74,7 +76,6 @@ body {
 }
 
 
-/*SECOND CONTAINER*/
 /*SECOND CONTAINER*/
 .container2 {
     text-align: center;
@@ -163,7 +164,7 @@ body {
 
 .note-photo,
 .idcards-photo {
-    max-width: 70%; /* Увеличенная ширина блокнота */
+    max-width: 55%; /* Увеличенная ширина блокнота */
     height: auto;
     margin: 0.5rem;
     margin-left: -10%;
