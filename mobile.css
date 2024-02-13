@@ -163,7 +163,7 @@ body {
 
 .note-photo,
 .idcards-photo {
-    max-width: 55%; /* Увеличенная ширина блокнота */
+    max-width: 70%; /* Увеличенная ширина блокнота */
     height: auto;
     margin: 0.5rem;
     margin-left: -10%;
