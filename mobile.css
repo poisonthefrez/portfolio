@@ -137,6 +137,10 @@ body {
     text-decoration: underline; /* Добавлено подчеркивание */
 }
 
+.ipad-l {
+    max-width: 80%;
+}
+
 .ipad-descript {
     text-align: center;
     font-weight: 600;
